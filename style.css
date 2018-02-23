@@ -1,3 +1,10 @@
+h3 {
+	margin: 0;
+}
+.all{
+	width: 80%;
+	margin: auto;
+}
 .headerImg {
 	background-color: navy;
 	color: white;
@@ -9,6 +16,17 @@
 	background-color: navy;
 	color: white;
 	text-align: left;
-	padding: 5px;
+	padding: 2px;
+	padding-left: 10px;
+
+}
+.mainContent {
+	border: solid 1px navy;
 	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: -15px;
+}
+input {
+	margin: auto;
+	width: 100%;
 }

@@ -12,36 +12,59 @@
 </head>
 
 <body>
-	<div class="container-fluid">
-		<div class="header">
+	<!-- all content container -->
+	<div class="container all">
+		<header>
 			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-10 headerImg"><h1><span class="glyphicon glyphicon-paperclip"></span> New York Times Search</h1></div>
-				<div class="col-md-1"></div>
+
+				<div class="col-md-12 headerImg">
+					<h1>
+						<span class="glyphicon glyphicon-paperclip"></span> New York Times Search</h1>
+				</div>
+
 			</div>
-			<!-- img goes here -->
-		</div>
+		</header>
+		<section>
+<p></p>
 		<div class="container mainContent">
-				<div class="row searchBoxHeader"><h3><span class="glyphicon glyphicon-paperclip"></span> Search Parameters</h3></div>
+			<div class="row searchBoxHeader">
+				<h3>
+					<span class="glyphicon glyphicon-paperclip"></span> Search Parameters</h3>
+			</div>
 			<div class="row">
 				<div class="col-md-1"></div>
-				<div class="col-sm-10 inputform" >
-					<p>
-					<input type="text" id="search">
-					<input type="text" id="records">
-					<input type="text" id="startYear">
-					<input type="text" id="endYear">
-					<button type="submit" id="searchBtn"></button>
-					<button type="reset" id="resetBtn"></button>
+				<div class="col-md-10 inputform">
+						<p>Search Term</p>
+						<input type="text" id="search">
+						<p>Number Of Records To Retrieve:</p>
+						<select class="form-control" id="records">
+							<option value="1">1</option>
+							<option value="5">5</option>
+							<option value="10">10</option>
+						</select>
+						<p>Start Year</p>
+						<input type="text" id="startYear">
+						<p>End Year</p>
+						<input type="text" id="endYear">
+						<p></p>
+						<button type="submit" id="searchBtn">Search</button>
+						<button type="reset" id="resetBtn">Reset</button>
 				</div>
 				<div class="col-md-1"></div>
+			</section>
+
+
 				<!-- end row -->
-			</div> 
-			<div class="resultsContainer" id="well-section">
+			</div>
+			<div class="container resultsContainer" id="well-section">
 				<!-- results will go here -->
 			</div>
 		</div>
+
 	</div>
+<!-- end all content container -->
+</div> 
+
 </body>
 
 </html>
