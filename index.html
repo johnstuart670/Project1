@@ -13,25 +13,27 @@
 
 <body>
 	<!-- all content container -->
-	<div class="container all">
-		<header>
+	<div class="container-fluid all">
+		<div class="container-fluid">
 			<div class="row">
+		<header>
 
 				<div class="col-md-12 headerImg">
 					<h1>
 						<span class="glyphicon glyphicon-paperclip"></span> New York Times Search</h1>
 				</div>
 
-			</div>
 		</header>
-		<section>
+	</div>
+	</div>
+
 <p></p>
-		<div class="container mainContent">
+		<div class="container-fluid mainContent">
 			<div class="row searchBoxHeader">
 				<h3>
 					<span class="glyphicon glyphicon-paperclip"></span> Search Parameters</h3>
 			</div>
-			<div class="row">
+
 				<div class="col-md-1"></div>
 				<div class="col-md-10 inputform">
 						<p>Search Term</p>
@@ -49,22 +51,28 @@
 						<p></p>
 						<button type="submit" id="searchBtn">Search</button>
 						<button type="reset" id="resetBtn">Reset</button>
+						<p></p>
+						<div class="col-md-1"></div>
 				</div>
-				<div class="col-md-1"></div>
-			</section>
-
+			</div>
 
 				<!-- end row -->
+			<div class="container-fluid resultsContainer">
+					<div class="row searchBoxHeader">
+					<h3>
+							<span class="glyphicon glyphicon-paperclip"></span> Top Articles</h3>
+						</div>
+						<div id="well-section"></div>
+						<!-- text goes here -->
 			</div>
-			<div class="container resultsContainer" id="well-section">
-				<!-- results will go here -->
-			</div>
-		</div>
+
 
 	</div>
+
 <!-- end all content container -->
 </div> 
 <script src="./javascript.js"></script>
+
 </body>
 
 </html>

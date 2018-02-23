@@ -24,7 +24,11 @@ h3 {
 	border: solid 1px navy;
 	border-radius: 5px;
 	margin-top: 10px;
-	margin-left: -15px;
+}
+.resultsContainer {
+	border: solid 1px navy;
+	border-radius: 5px;
+	margin-top: 10px;
 }
 input {
 	margin: auto;
