@@ -1,0 +1,14 @@
+.headerImg {
+	background-color: navy;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+}
+.searchBoxHeader {
+	background-color: navy;
+	color: white;
+	text-align: left;
+	padding: 5px;
+	border-radius: 5px;
+}
